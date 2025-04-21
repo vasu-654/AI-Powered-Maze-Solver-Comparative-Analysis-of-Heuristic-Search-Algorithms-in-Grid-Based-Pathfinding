@@ -40,58 +40,39 @@ Install dependencies:
 pip install matplotlib
 **🧪 How It Works**
 
-Generate a random maze (create_maze()).
-
-Run each search algorithm:
-
-a_star(heuristic=manhattan_distance)
-
-a_star(heuristic=euclidean_distance)
-
-a_star(heuristic=diagonal_distance)
-
-a_star(heuristic=chebyshev_distance)
-
-flood_fill()
-
-Visualize and benchmark:
-
-Display search path
-
-Print number of movements, comparisons, and runtime
+◉ Generate a random maze (create_maze()).
+◉ Run each search algorithm:
+◉ a_star(heuristic=manhattan_distance)
+◉ a_star(heuristic=euclidean_distance)
+◉ a_star(heuristic=diagonal_distance)
+◉ a_star(heuristic=chebyshev_distance)
+◉ flood_fill()
+◉ Visualize and benchmark:
+◉ Display search path
+◉ Print number of movements, comparisons, and runtime
 
 **▶️ Example Execution**
 
 Run the main script:
-
 python maze_solver.py
 
-Output includes:
+**Output includes:**
 
-Maze grid visualization
-
-Search path in green
-
-Start and destination highlighted
-
-Performance metrics printed in console
+◉ Maze grid visualization
+◉ Search path in green
+◉ Start and destination highlighted
+◉ Performance metrics printed in console
 
 **📊 Performance Metrics**
 
-Each algorithm run provides:
-
-Total path length (movement steps)
-
-Search comparisons (visited nodes)
-
-Execution time (in seconds)
+◉ Each algorithm run provides:
+◉ Total path length (movement steps)
+◉ Search comparisons (visited nodes)
+◉ Execution time (in seconds)
 
 **📌 Future Enhancements**
 
-Support for diagonal movement in flood fill
-
-Weighted grid support (Dijkstra variant)
-
-Interactive UI (Tkinter or Web-based)
-
-Real-time step-by-step animation
+◉ Support for diagonal movement in flood fill
+◉ Weighted grid support (Dijkstra variant)
+◉ Interactive UI (Tkinter or Web-based)
+◉ Real-time step-by-step animation
